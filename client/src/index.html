@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Pong</title>
+        <meta name="author" content="JC Routier"/>
+
+        <link rel="stylesheet" type="text/css" href="./style/style.css"/>
+        <link rel="stylesheet" type="text/css" href="./style/discussion.css"/>
+        <script src="/socket.io/socket.io.js"></script>
+
+
+    </head>
+
+
+    <body>
+
+        <header>
+            <div class="server">
+                <p id="player_id"></p>
+                <h1 >Welcome! Ping Pong game</h1>
+                <p id="server_message"> Hello </p>
+            </div>
+        </header>
+
+        <h1 id="player"></h1>
+
+        <div class="score">
+            <span id="score_paddle_left"> 0 </span>
+        </div>
+
+        <div class="score">
+            <span id="score_paddle_right"> 0 </span>
+        </div>
+
+        <canvas id="field" width="800" height="600">
+        </canvas>
+
+
+        <div id="controls">
+            <input id="start" type="button" value="connect"></input>
+        </div>
+
+        <div id="message_section">
+            <ul id="messages">
+            </ul>
+            <div id="form">
+                <input id="input"/>
+                <button id="send_msg">Send</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>

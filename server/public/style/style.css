@@ -1,0 +1,70 @@
+html {
+  background-color : #2c525a;
+  color: white;
+}
+#field {
+    display : block;
+    margin : auto;
+    background-color: #23536e;
+    border-radius: 2% / 50%;
+}
+
+.server{
+  background-color: #2c525a;
+  text-align: center;
+}
+
+#server_message{
+  color: lawngreen;
+}
+
+#player_id{
+  color: lawngreen;
+  text-align: left;
+  visibility:visible;
+}
+
+h1 {
+  color : white;
+}
+
+div#control {
+  text-align : center;
+  margin : 10px;
+}
+
+#score_paddle_left{
+  float: left;
+}
+
+#score_paddle_right{
+  float: right;
+}
+
+.score{
+  display: inline;
+  font-size: 75pt;
+}
+
+button {
+  font-size : 40px;
+}
+
+span#score{
+  display : inline-block;
+  width : 100px;
+  font-size : 30px;
+  text-align : right;
+  background-color : white;
+  padding : 4px;
+  margin : 4px;
+}
+
+#controls {
+  margin : 20px auto;
+  text-align:center;
+}
+#controls input {
+  font-size : 32px;
+}
+
